@@ -1,0 +1,28 @@
+html {
+    background: url("../images/wallpaper.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+    
+body {
+    background:rgba(255,255,255,0.9);
+}
+
+h1 {
+    text-align: center;
+}
+
+.selections {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.timer{
+    text-align: center;
+}
+
+.js-content-section {
+    text-align: center;
+}
