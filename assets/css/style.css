@@ -43,3 +43,300 @@ button {
 .js-content-section {
     text-align: center;
 }
+
+/*Media Quereis*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+            html {
+                background: url("../images/wallpaper.jpg") no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                }
+                
+            body {
+                background:rgba(255,255,255,0.9);
+            }
+            
+            h1 {
+                text-align: center;
+            }
+            
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .center-block {
+                float:none;
+            }
+            
+            .mx-auto {
+                display: block;
+                width: auto;
+                margin: auto;
+            }
+            
+            .choice {
+                border: 1px solid lightcoral;
+                border-radius: 5px;
+                padding: 15px;
+                cursor: pointer;
+            }
+            
+            .timer{
+                text-align: center;
+            }
+            
+            .js-content-section {
+                text-align: center;
+            }
+    
+  }
+  
+/*iPhone 5/SE screen resolution*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+    html {
+        background: url("../images/wallpaper.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        }
+        
+    body {
+        background:rgba(255,255,255,0.9);
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .center-block {
+        float:none;
+    }
+    
+    .mx-auto {
+        display: block;
+        width: auto;
+        margin: auto;
+    }
+    
+    .choice {
+        border: 1px solid lightcoral;
+        border-radius: 5px;
+        padding: 15px;
+        cursor: pointer;
+    }
+    
+    .timer{
+        text-align: center;
+    }
+    
+    .js-content-section {
+        text-align: center;
+    }
+}
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+            html {
+                background: url("../images/wallpaper.jpg") no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                }
+                
+            body {
+                background:rgba(255,255,255,0.9);
+            }
+            
+            h1 {
+                text-align: center;
+            }
+            
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .center-block {
+                float:none;
+            }
+            
+            .mx-auto {
+                display: block;
+                width: auto;
+                margin: auto;
+            }
+            
+            .choice {
+                border: 1px solid lightcoral;
+                border-radius: 5px;
+                padding: 15px;
+                cursor: pointer;
+            }
+            
+            .timer{
+                text-align: center;
+            }
+            
+            .js-content-section {
+                text-align: center;
+            }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+            html {
+                background: url("../images/wallpaper.jpg") no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                }
+                
+            body {
+                background:rgba(255,255,255,0.9);
+            }
+            
+            h1 {
+                text-align: center;
+            }
+            
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .center-block {
+                float:none;
+            }
+            
+            .mx-auto {
+                display: block;
+                width: auto;
+                margin: auto;
+            }
+            
+            .choice {
+                border: 1px solid lightcoral;
+                border-radius: 5px;
+                padding: 15px;
+                cursor: pointer;
+            }
+            
+            .timer{
+                text-align: center;
+            }
+            
+            .js-content-section {
+                text-align: center;
+            }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+            html {
+                background: url("../images/wallpaper.jpg") no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                }
+                
+            body {
+                background:rgba(255,255,255,0.9);
+            }
+            
+            h1 {
+                text-align: center;
+            }
+            
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .center-block {
+                float:none;
+            }
+            
+            .mx-auto {
+                display: block;
+                width: auto;
+                margin: auto;
+            }
+            
+            .choice {
+                border: 1px solid lightcoral;
+                border-radius: 5px;
+                padding: 15px;
+                cursor: pointer;
+            }
+            
+            .timer{
+                text-align: center;
+            }
+            
+            .js-content-section {
+                text-align: center;
+            }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+            html {
+                background: url("../images/wallpaper.jpg") no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                }
+                
+            body {
+                background:rgba(255,255,255,0.9);
+            }
+            
+            h1 {
+                text-align: center;
+            }
+            
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .center-block {
+                float:none;
+            }
+            
+            .mx-auto {
+                display: block;
+                width: auto;
+                margin: auto;
+            }
+            
+            .choice {
+                border: 1px solid lightcoral;
+                border-radius: 5px;
+                padding: 15px;
+                cursor: pointer;
+            }
+            
+            .timer{
+                text-align: center;
+            }
+            
+            .js-content-section {
+                text-align: center;
+            }
+  }
